@@ -16,7 +16,7 @@
 | 4 — Below zero | 70, 80, -1 | Display invalid marks message and stop input |
 | 5 — Above 100 | 70, 80, 65, 101 | Display invalid marks message and stop input |
 | 6 — Exactly at pass mark | 40, 40, 40, 40, 40 | No grace marks; total 200/500; percentage 40.0%; PASS |
-| 7 — Grace limit boundary | 70, 80, 65, 90, 35 | 5 grace marks to subject 5; adjusted total 340/500; percentage 68.0%; PASS |
+| 7 — Grace limit boundary | 70, 80, 65, 90, 35 | 5 grace marks to subject 5; adjusted marks [70, 80, 65, 90, 40]; total 345/500; percentage 69.0%; PASS |
 | 8 — Outside grace limit | 70, 80, 65, 90, 34 | No grace marks; total 339/500; percentage 67.8%; FAIL |
 
 ## Sample run — Test 1
@@ -50,9 +50,11 @@ Percentage: 69.0 %
 Result: PASS
 ```
 
-## How to verify
+## Executed output screenshots
+
+Open the [outputs folder](./outputs/) to view all eight test-run images and the execution report. The images are terminal-style SVG screenshots generated from the captured output of actual Python executions. TinyFish could not enter code into the online IDE editor, so these are not browser screenshots.
+
+## How to run again
 1. Open a terminal in this folder.
 2. Run `python main.py` (or `python3 main.py`).
 3. Enter the values from each test row in order.
-4. Compare the actual output with the expected result.
-5. Save screenshots of actual program runs in the `outputs/` folder. Do not use sample text as a substitute for genuine run screenshots.
