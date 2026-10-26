@@ -1,48 +1,64 @@
 # Case Study 01: Examination Result and Grace-Mark Validation
-# Syllabus concepts: variables, lists, loops, operators, if-statements.
+# Syllabus concepts: variables, input/output, data types, operators,
+# conditional statements, while loops, strings, and lists.
 
 PASS_MARK = 40
 GRACE_LIMIT = 5
 SUBJECT_COUNT = 5
 
 marks = []
+subject = 1
 valid_input = True
 
-for subject in range(SUBJECT_COUNT):
-    mark = int(input("Enter marks for subject " + str(subject + 1) + " (0-100): "))
+while subject <= SUBJECT_COUNT and valid_input:
+    mark = int(input("Enter marks for subject " + str(subject) + " (0-100): "))
+
     if mark < 0 or mark > 100:
         print("Invalid marks. Enter a value from 0 to 100.")
         valid_input = False
-        break
-    marks.append(mark)
+    else:
+        marks.append(mark)
+        subject = subject + 1
 
-if valid_input and len(marks) == SUBJECT_COUNT:
-    failed_subjects = []
-    for index in range(SUBJECT_COUNT):
+if valid_input:
+    failed_count = 0
+    failed_index = 0
+    index = 0
+
+    while index < SUBJECT_COUNT:
         if marks[index] < PASS_MARK:
-            failed_subjects.append(index)
+            failed_count = failed_count + 1
+            failed_index = index
+        index = index + 1
 
-    # Illustrative policy only: grace marks may be applied to one subject.
-    if len(failed_subjects) == 1:
-        index = failed_subjects[0]
-        needed = PASS_MARK - marks[index]
+    # Illustrative classroom rule only, not an official college policy.
+    if failed_count == 1:
+        needed = PASS_MARK - marks[failed_index]
+
         if needed <= GRACE_LIMIT:
-            marks[index] = marks[index] + needed
-            print("Grace marks awarded:", needed, "to subject", index + 1)
+            marks[failed_index] = marks[failed_index] + needed
+            print("Grace marks awarded:", needed, "to subject", failed_index + 1)
 
     total = 0
-    for mark in marks:
-        total = total + mark
+    index = 0
+
+    while index < SUBJECT_COUNT:
+        total = total + marks[index]
+        index = index + 1
 
     percentage = total / SUBJECT_COUNT
+
     print("\nFinal marks:", marks)
     print("Total:", total, "/", SUBJECT_COUNT * 100)
-    print("Percentage:", round(percentage, 2), "%")
+    print("Percentage:", percentage, "%")
 
     all_passed = True
-    for mark in marks:
-        if mark < PASS_MARK:
+    index = 0
+
+    while index < SUBJECT_COUNT:
+        if marks[index] < PASS_MARK:
             all_passed = False
+        index = index + 1
 
     if all_passed:
         print("Result: PASS")
