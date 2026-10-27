@@ -10,4 +10,5 @@
 ## How to run
 Run `python main.py` and enter the scenario value.
 
-**Evidence note:** These are expected outcomes, not a claim that the tests have been executed. Browser automation could not enter code into the online IDE. Save screenshots from actual runs before marking tests completed.
+
+**Local verification:** All four documented test scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. The SVGs in `outputs/` render captured stdout and are not browser IDE screenshots.
