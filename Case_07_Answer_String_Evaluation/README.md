@@ -27,5 +27,6 @@ Open a terminal in this folder and run `python main.py`.
 ## Conclusion
 This case practices use strings to represent choices.; store student answers and the answer key in lists.; compare strings with conditional statements.; calculate score and percentage using arithmetic. with introductory Python concepts in the syllabus.
 
-## Execution note
-Expected outcomes are documented, but browser execution and screenshots are not claimed: automated input did not work in the online IDE. Run locally and save actual output evidence.
+## Local verification
+
+All four documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
