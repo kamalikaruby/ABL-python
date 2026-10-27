@@ -1,17 +1,18 @@
 # Execution Report — Case Study 06: Password Policy Validation
 
-## Status
-Source code and documentation have been prepared. Browser execution and screenshots were not completed.
+## Local execution results
+All five scenarios in `test_cases.md` were executed locally with scripted inputs. **5 of 5 tests passed**, with no syntax or runtime errors.
 
-## Limitation
-The online IDE automation attempt could not enter code into the editor. This report does not claim the test cases were run in the browser or locally.
+| Test | Result |
+|---|---|
+| Meets all rules | Passed — result VALID |
+| No uppercase | Passed — uppercase check False; INVALID |
+| No digit | Passed — digit check False; INVALID |
+| Too short | Passed — length check False; INVALID |
+| No lowercase | Passed — lowercase check False; INVALID |
 
-## Scenarios prepared
-1. **Meets all rules:** All four checks True; result VALID.
-2. **No uppercase:** Uppercase False; result INVALID.
-3. **No digit:** Digit False; result INVALID.
-4. **Too short:** Length False; result INVALID.
-5. **No lowercase:** Lowercase False; result INVALID.
+## Output captures
+- `test_01.svg` — valid password
+- `test_02.svg` — missing uppercase letter
 
-## Next step
-Run `python main.py`, enter each test scenario, compare the output with the expected result, and save actual screenshots.
+These SVGs render captured local Python stdout; they are not browser IDE screenshots. The online IDE automation attempt could not enter code.
