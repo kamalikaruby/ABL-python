@@ -1,11 +1,8 @@
 # Output Evidence — Case Study 10
 
-Save real terminal screenshots here after running the program. Suggested file names:
+These SVGs render stdout captured during local Python executions with scripted inputs; they are not browser IDE screenshots.
 
-- `test_01.png` — Target met
-- `test_02.png` — Target exceeded
-- `test_03.png` — No waste
-- `test_04.png` — All food left
-- `test_05.png` — Invalid leftover
+- [test_01.svg](test_01.svg) — waste target met
+- [test_02.svg](test_02.svg) — invalid leftover quantity
 
-Do not label an image as an executed test unless it was captured from an actual run.
+All five scenarios in `../test_cases.md` were executed locally and passed. The 10% threshold is illustrative for this exercise.
