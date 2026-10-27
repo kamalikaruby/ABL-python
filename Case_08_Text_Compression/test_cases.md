@@ -11,4 +11,5 @@
 ## Running the tests
 Run `python main.py` and enter each scenario's values when prompted.
 
-**Evidence note:** This table lists expected outcomes; it does not claim every case was executed. Browser automation could not enter the code into the online IDE. Save screenshots from actual runs before marking tests completed.
+
+**Local verification:** All five documented test scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. The SVGs in `outputs/` render captured stdout and are not browser IDE screenshots.
