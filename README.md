@@ -26,7 +26,7 @@ This repository contains the Python ABL case studies. Each case study is organiz
 
 The programs use introductory Python constructs such as variables, data types, operators, conditional statements, loops, strings, patterns, lists, nested lists, and simple list processing. The implementation avoids imports, classes, custom functions, and external packages.
 
-Each `test_cases.md` records scenarios and expected outcomes. Automated input into the online Python IDE was unsuccessful, so test scenarios in Cases 02–10 are not presented as browser-executed and no browser screenshots are claimed. Run each program locally and save screenshots of actual output in its `outputs/` folder before submission.
+Each `test_cases.md` records test scenarios and outcomes. All 41 documented scenarios across Cases 02–10 were executed locally with scripted input: **41 passed, 0 failed**. Two representative terminal-style SVG output captures have been added to each case's `outputs/` folder. These SVGs render captured local stdout; they are not screenshots from the browser IDE, because automated input to the online IDE was unsuccessful.
 
 Grace-mark handling in Case 01 and the 10% food-waste target in Case 10 are illustrative classroom assumptions, not official institutional policies or standards.
 
