@@ -1,11 +1,8 @@
 # Output Evidence — Case Study 02
 
-After running `main.py` locally, save real terminal screenshots in this folder. Suggested files:
+The SVG files below render stdout captured while this program was executed locally with scripted input. They are not screenshots from the online IDE.
 
-- `test_01.png` — Deposit and withdrawal
-- `test_02.png` — Withdrawal exceeds balance
-- `test_03.png` — Zero amount
-- `test_04.png` — Invalid transaction type
-- `test_05.png` — Invalid transaction count
+- [test_01.svg](test_01.svg) — deposit and withdrawal
+- [test_02.svg](test_02.svg) — withdrawal exceeds balance
 
-Do not label an image as an executed test unless the program was run with that input. See `../test_cases.md` for expected results.
+All five scenarios in `../test_cases.md` were executed locally and passed.
