@@ -1,16 +1,17 @@
 # Execution Report — Case Study 04: Numeric Pattern Generator
 
-## Status
-Source code and documentation are prepared. Browser execution and screenshots were not completed.
+## Local execution results
+The Python program was run locally with scripted inputs for all four scenarios in `test_cases.md`. **4 of 4 tests passed**, with no syntax or runtime errors.
 
-## Limitation
-The online IDE automation attempt could not enter code into its editor. This report does not claim that the test cases were run in the browser or locally.
+| Test | Result |
+|---|---|
+| Four rows | Passed — increasing numeric pattern displayed |
+| One row | Passed — one row displayed |
+| Maximum rows | Passed — ten rows displayed |
+| Invalid rows | Passed — invalid row count message displayed |
 
-## Scenarios prepared
-1. **Four rows:** Print lines 1; 1 2; 1 2 3; 1 2 3 4.
-2. **One row:** Print one line, 1.
-3. **Maximum rows:** Print ten increasing rows.
-4. **Invalid rows:** Display invalid row count message.
+## Output captures
+- `test_01.svg` — four-row numeric pattern
+- `test_02.svg` — invalid row count
 
-## Next step
-Run `python main.py`, enter each scenario, compare actual output with the expected result, and save screenshots.
+These SVGs render captured local Python stdout. They are not browser IDE screenshots; the online IDE automation attempt could not enter code.
