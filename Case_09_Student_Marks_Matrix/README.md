@@ -26,5 +26,6 @@ Open a terminal in this folder and run `python main.py`.
 ## Conclusion
 This case practices represent tabular data using a nested list.; use nested while loops to read and process marks.; calculate row totals and column averages.; validate marks with conditional statements. using introductory Python concepts in the syllabus.
 
-## Execution note
-Expected results are documented, but browser execution and screenshots are not claimed because automated input did not work in the online IDE. Run locally and save actual output evidence.
+## Local verification
+
+All four documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
