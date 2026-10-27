@@ -26,5 +26,6 @@ Open a terminal in this folder and run `python main.py`.
 ## Conclusion
 This case uses introductory Python constructs covered in the syllabus: traverse a string character by character.; use comparisons and Boolean variables.; count characters using a loop.; display individual policy checks and an overall result..
 
-## Execution note
-The online IDE automation attempt could not enter code in the editor. Expected outcomes are documented, but this update does not claim browser execution or fabricated screenshots. Run the code locally and save evidence of actual output.
+## Local verification
+
+All five documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
