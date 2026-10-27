@@ -1,10 +1,8 @@
 # Output Evidence — Case Study 03
 
-After running `main.py` locally, save real terminal screenshots in this folder. Suggested files:
+These SVGs render stdout captured during local Python executions with scripted inputs; they are not browser IDE screenshots.
 
-- `test_01.png` — Improved
-- `test_02.png` — Declined
-- `test_03.png` — Unchanged
-- `test_04.png` — Invalid mark
+- [test_01.svg](test_01.svg) — improved performance
+- [test_02.svg](test_02.svg) — invalid mark
 
-Do not label an image as an executed test unless the program was run with that input. See `../test_cases.md` for expected results.
+All four scenarios in `../test_cases.md` were executed locally and passed.
