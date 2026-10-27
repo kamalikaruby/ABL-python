@@ -1,11 +1,8 @@
 # Output Evidence — Case Study 06
 
-Save actual terminal screenshots here after running the program. Suggested names:
+These SVGs render stdout captured during local Python executions with scripted inputs; they are not browser IDE screenshots.
 
-- `test_01.png` — Meets all rules
-- `test_02.png` — No uppercase
-- `test_03.png` — No digit
-- `test_04.png` — Too short
-- `test_05.png` — No lowercase
+- [test_01.svg](test_01.svg) — valid password
+- [test_02.svg](test_02.svg) — missing uppercase letter
 
-Do not label an image as an executed test unless it was captured from an actual run.
+All five scenarios in `../test_cases.md` were executed locally and passed. The password rules are a basic classroom example, not a complete security assessment.
