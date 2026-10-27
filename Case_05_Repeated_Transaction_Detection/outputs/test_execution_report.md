@@ -1,17 +1,18 @@
 # Execution Report — Case Study 05: Repeated Transaction Detection
 
-## Status
-Source code and documentation have been prepared. Browser execution and screenshots were not completed.
+## Local execution results
+All five scenarios in `test_cases.md` were executed locally with scripted inputs. **5 of 5 tests passed**, with no syntax or runtime errors.
 
-## Limitation
-The online IDE automation attempt could not enter code into the editor. This report does not claim the test cases were run in the browser or locally.
+| Test | Result |
+|---|---|
+| One repeated amount | Passed — 100 reported once |
+| Two repeated amounts | Passed — 50 and 75 reported |
+| No repeats | Passed — no repeated amounts found |
+| Triple occurrence | Passed — 20 reported once |
+| Invalid amount | Passed — invalid amount message displayed |
 
-## Scenarios prepared
-1. **One repeated amount:** Repeated amounts: [100].
-2. **Two repeated amounts:** Repeated amounts: [50, 75].
-3. **No repeats:** No repeated amounts found.
-4. **Triple occurrence:** Repeated amounts: [20] only once.
-5. **Invalid amount:** Invalid amount message; no summary.
+## Output captures
+- `test_01.svg` — one repeated amount
+- `test_02.svg` — no repeated amounts
 
-## Next step
-Run `python main.py`, enter each test scenario, compare the output with the expected result, and save actual screenshots.
+These SVGs render captured local Python stdout, not browser IDE screenshots. The online IDE automation attempt could not enter code.
