@@ -27,5 +27,6 @@ Open a terminal in this folder and run `python main.py`. Enter the values reques
 ## Conclusion
 This case study practices use variables to store account balance and transaction count.; use conditions to choose deposit or withdrawal processing.; use a while loop to process transactions in sequence.; use a list to store transaction history. using introductory Python constructs from the syllabus.
 
-## Execution note
-Expected outcomes are documented in `test_cases.md`. The browser IDE attempt could not accept automated code input, so this update does not claim browser execution or provide fabricated screenshots. Run the program locally and save screenshots of actual output.
+## Local verification
+
+All five documented test scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/`. These are not screenshots from the browser IDE.
