@@ -26,5 +26,6 @@ Open a terminal in this folder and run `python main.py`. Enter the values reques
 ## Conclusion
 This case study practices store assessment scores in a list.; validate scores using conditional statements.; calculate total and average using a loop.; compare the first and last scores to identify a trend. using introductory Python constructs from the syllabus.
 
-## Execution note
-Expected outcomes are documented in `test_cases.md`. The browser IDE attempt could not accept automated code input, so this update does not claim browser execution or provide fabricated screenshots. Run the program locally and save screenshots of actual output.
+## Local verification
+
+All four documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
