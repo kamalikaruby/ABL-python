@@ -1,16 +1,17 @@
 # Execution Report — Case Study 07: String-Based Examination Answer Evaluation
 
-## Status
-Source code and documentation are prepared. Browser execution and screenshots were not completed.
+## Local execution results
+All four scenarios in `test_cases.md` were executed locally with scripted inputs. **4 of 4 tests passed**, with no syntax or runtime errors.
 
-## Limitation
-The online IDE automation attempt could not enter code in its editor. This report does not claim that the tests were run in the browser or locally.
+| Test | Result |
+|---|---|
+| All correct | Passed — score 5/5; percentage 100.0% |
+| All incorrect | Passed — score 0/5; percentage 0.0% |
+| Three correct | Passed — score 3/5; percentage 60.0% |
+| Invalid answer | Passed — invalid option rejected |
 
-## Scenarios prepared
-1. **All correct:** Score 5/5; percentage 100.0%.
-2. **All incorrect:** Score 0/5; percentage 0.0%.
-3. **Three correct:** Score 3/5; percentage 60.0%.
-4. **Invalid answer:** Invalid answer message; no score shown.
+## Output captures
+- `test_01.svg` — all answers correct
+- `test_02.svg` — invalid answer choice
 
-## Next step
-Run `python main.py`, enter each scenario, compare the actual output with the expected result, and save screenshots.
+These SVGs render captured local Python stdout; they are not browser IDE screenshots. The online IDE automation attempt could not enter code.
