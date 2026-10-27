@@ -26,5 +26,6 @@ Open a terminal in this folder and run `python main.py`.
 ## Conclusion
 This case uses introductory Python constructs covered in the syllabus: store transaction amounts in a list.; use nested loops to compare values and count matches.; use a second list to remember repeated amounts already found.; apply conditions to avoid printing a duplicate twice..
 
-## Execution note
-The online IDE automation attempt could not enter code in the editor. Expected outcomes are documented, but this update does not claim browser execution or fabricated screenshots. Run the code locally and save evidence of actual output.
+## Local verification
+
+All five documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
