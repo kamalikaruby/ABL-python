@@ -27,5 +27,6 @@ Open a terminal in this folder and run `python main.py`.
 ## Conclusion
 This case practices store daily quantities in lists.; validate prepared and leftover quantities.; use loops and arithmetic to calculate totals and percentage.; compare waste percentage with a target using a condition. using introductory Python concepts in the syllabus.
 
-## Execution note
-Expected results are documented, but browser execution and screenshots are not claimed because automated input did not work in the online IDE. Run locally and save actual output evidence.
+## Local verification
+
+All five documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
