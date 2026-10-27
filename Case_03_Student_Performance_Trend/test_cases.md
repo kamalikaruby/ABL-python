@@ -14,3 +14,5 @@ Run `python main.py` in this folder and enter each scenario. When a case lists m
 
 ## Evidence note
 The table contains expected outcomes, not a claim that all test cases have been executed. Automated browser input to the online IDE was unsuccessful. Capture screenshots from actual local Python runs before marking tests as executed.
+
+**Local verification:** All four documented test scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. The SVGs in `outputs/` render captured stdout and are not browser IDE screenshots.
