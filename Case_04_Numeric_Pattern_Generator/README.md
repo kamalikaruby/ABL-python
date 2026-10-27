@@ -26,5 +26,6 @@ Open a terminal in this folder and run `python main.py`. Enter the values reques
 ## Conclusion
 This case study practices use nested while loops.; build output text using strings and concatenation.; use variables and counters to control repetition.; validate the number of rows. using introductory Python constructs from the syllabus.
 
-## Execution note
-Expected outcomes are documented in `test_cases.md`. The browser IDE attempt could not accept automated code input, so this update does not claim browser execution or provide fabricated screenshots. Run the program locally and save screenshots of actual output.
+## Local verification
+
+All four documented scenarios were executed locally with scripted inputs; all passed. See `outputs/test_execution_report.md`. Representative terminal-style output captures are stored in `outputs/` and are not browser screenshots.
