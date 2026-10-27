@@ -1,10 +1,8 @@
 # Output Evidence — Case Study 09
 
-Save real terminal screenshots here after running the program. Suggested file names:
+These SVGs render stdout captured during local Python executions with scripted inputs; they are not browser IDE screenshots.
 
-- `test_01.png` — Sequential values
-- `test_02.png` — All 100
-- `test_03.png` — All zero
-- `test_04.png` — Invalid mark
+- [test_01.svg](test_01.svg) — student totals and subject averages
+- [test_02.svg](test_02.svg) — invalid mark
 
-Do not label an image as an executed test unless it was captured from an actual run.
+All four scenarios in `../test_cases.md` were executed locally and passed.
