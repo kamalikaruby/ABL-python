@@ -33,3 +33,7 @@ Grace-mark handling in Case 01 and the 10% food-waste target in Case 10 are illu
 ## Submission reminder
 
 Add your name, roll number, branch, and section to any cover sheet your faculty requires. Verify test cases locally and include screenshots of real executions before submitting.
+
+## Execution screenshots
+
+See [SCREENSHOTS.md](SCREENSHOTS.md) for two local execution screenshots for each of the ten case studies. They are terminal-style captures of actual program prompts and output, not screenshots from the online IDE.
